@@ -80,13 +80,6 @@ const AtomAnimation = () => {
       <div className={`absolute inset-4 rounded-full border opacity-15 animate-ping ${
         isDark ? 'border-slate-400' : 'border-slate-400'
       }`} style={{ animationDuration: '4s', animationDelay: '1s' }}></div>
-      
-      {/* Central Glow */}
-      <div className={`absolute inset-0 rounded-full animate-pulse-slow ${
-        isDark 
-          ? 'bg-gradient-radial from-white/30 to-transparent' 
-          : 'bg-gradient-radial from-slate-200/30 to-transparent'
-      }`}></div>
     </div>
   );
 };
